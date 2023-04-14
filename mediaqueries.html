@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- media queries -->
+    <style>
+      .header {
+        text-align: center;
+        padding: 30px;
+        background-color: red;
+        color: white;
+        animation: headercolor;
+        animation-duration: 5s;
+        font-style: italic;
+        animation-iteration-count: infinite;
+      }
+
+      @media screen and (max-width: 320px) {
+      p{
+          color: red;
+        }
+      }   
+
+      @media screen and (max-width: 768px) {
+        div{
+          color: blue;
+        }
+      }   
+
+      @media screen and (max-width: 1024px) {
+        main{
+          color: orange;
+        }
+      }   
+    </style>
+  </head>
+  <body>
+    <section class="text-center p-5 border" style="background-color: aqua">
+      <h1 class="fw-bold">Online Magazine</h1>
+    </section>
+
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand">Navbar</a>
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+     <br><br>
+    <!-- main -->
+    <main>
+      <div class="container text-center justify-content-center">
+        <div class="row">
+            <div class="col-3">
+          <div class="col-md-4 mb-5" style="background-color: aqua; padding: 8px;">
+            <strong>Lifestyle</strong>
+            <br />
+            <br />
+            <p class="fw-bold">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+          <div class="col-3">
+            <div class="col-md-4 mb-5" style="background-color: aqua; padding: 8px;">
+              <strong>Business</strong>
+              <br />
+              <br />
+              <p class="fw-bold">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit
+              </p>
+            </div>
+            </div>
+            <div class="col-3">
+              <div class="col-md-4 mb-5" style="background-color: aqua; padding: 8px;">
+                <strong>Sport</strong>
+                <br />
+                <br />
+                <p class="fw-bold">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
